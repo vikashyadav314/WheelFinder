@@ -7,7 +7,7 @@ function FeaturedCars() {
   const [selectedCar, setSelectedCar] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/cars/category/featured')
+    fetch('http://https://wheelfinder-backend.onrender.com/api/cars/category/featured')
       .then(res => res.json())
       .then(data => setCars(data))
       .catch(err => console.error("Error fetching featured cars:", err));

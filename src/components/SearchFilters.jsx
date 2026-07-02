@@ -27,7 +27,7 @@ function SearchFilters() {
     if (filters.fuel) queryParams.append('fuel', filters.fuel);
     // budget and seats can also be appended, handled by backend
     
-    fetch(`http://localhost:5000/api/cars?${queryParams.toString()}`)
+    fetch(`http://https://wheelfinder-backend.onrender.com/api/cars?${queryParams.toString()}`)
       .then(res => res.json())
       .then(data => {
         setResults(data);
