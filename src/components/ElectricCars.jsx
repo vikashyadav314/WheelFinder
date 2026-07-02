@@ -7,7 +7,7 @@ function ElectricCars() {
   const [selectedCar, setSelectedCar] = useState(null);
 
   useEffect(() => {
-    fetch('http://https://wheelfinder-backend.onrender.com/api/cars/category/electric')
+    fetch('https://wheelfinder-backend.onrender.com/api/cars/category/electric')
       .then(res => res.json())
       .then(data => setCars(data))
       .catch(err => console.error("Error fetching electric cars:", err));

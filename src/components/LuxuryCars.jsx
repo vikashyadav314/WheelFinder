@@ -7,7 +7,7 @@ function LuxuryCars() {
   const [selectedCar, setSelectedCar] = useState(null);
 
   useEffect(() => {
-    fetch('http://https://wheelfinder-backend.onrender.com/api/cars/category/luxury')
+    fetch('https://wheelfinder-backend.onrender.com/api/cars/category/luxury')
       .then(res => res.json())
       .then(data => setCars(data))
       .catch(err => console.error("Error fetching luxury cars:", err));
