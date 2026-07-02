@@ -1,0 +1,111 @@
+import bmwCard from "../assets/images/bmw-m4.jpg";
+import bmwDetail from "../assets/images/bmw-m4-green.jpg";
+import fortunerCard from "../assets/images/fortuner.jpg";
+import fortunerDetail from "../assets/images/fortuner.jpeg";
+import xuvCard from "../assets/images/XUV-700.jpg";
+import xuvDetail from "../assets/images/xuv-700.jpeg";
+import cretaCard from "../assets/images/creta.jpg";
+import cretaDetail from "../assets/images/creta.png";
+import harrierCard from "../assets/images/harrier.jpg";
+import harrierDetail from "../assets/images/haarrier.png";
+import seltosCard from "../assets/images/kia-seltos.jpg";
+import seltosDetail from "../assets/images/kia-seltos.png";
+
+export const featuredCars = [
+  {
+    name: "BMW M4",
+    price: "₹72 Lakh",
+    fuel: "Petrol",
+    seats: 4,
+    brand: "BMW",
+    image: bmwCard,
+    detailImage: bmwDetail,
+    engine: "2,993 cc Twin-Turbo Inline-6",
+    power: "473 BHP",
+    torque: "550 Nm",
+    transmission: "6-Speed Manual / 8-Speed Auto",
+    mileage: "8-10 km/l",
+    topSpeed: "250 km/h",
+    bodyType: "Coupe",
+  },
+  {
+    name: "Toyota Fortuner",
+    price: "₹38 Lakh",
+    fuel: "Diesel",
+    seats: 7,
+    brand: "Toyota",
+    image: fortunerCard,
+    detailImage: fortunerDetail,
+    engine: "2,755 cc Diesel",
+    power: "201 BHP",
+    torque: "500 Nm",
+    transmission: "6-Speed Auto",
+    mileage: "10-14 km/l",
+    topSpeed: "180 km/h",
+    bodyType: "SUV",
+  },
+  {
+    name: "Mahindra XUV700",
+    price: "₹25 Lakh",
+    fuel: "Diesel",
+    seats: 7,
+    brand: "Mahindra",
+    image: xuvCard,
+    detailImage: xuvDetail,
+    engine: "2,184 cc Diesel",
+    power: "182 BHP",
+    torque: "420 Nm",
+    transmission: "6-Speed Manual / 6-Speed Auto",
+    mileage: "13-16 km/l",
+    topSpeed: "200 km/h",
+    bodyType: "SUV",
+  },
+  {
+    name: "Hyundai Creta",
+    price: "₹15 Lakh",
+    fuel: "Petrol",
+    seats: 5,
+    brand: "Hyundai",
+    image: cretaCard,
+    detailImage: cretaDetail,
+    engine: "1,497 cc Turbo Petrol",
+    power: "158 BHP",
+    torque: "253 Nm",
+    transmission: "7-Speed DCT",
+    mileage: "17-21 km/l",
+    topSpeed: "190 km/h",
+    bodyType: "Compact SUV",
+  },
+  {
+    name: "Tata Harrier",
+    price: "₹20 Lakh",
+    fuel: "Diesel",
+    seats: 5,
+    brand: "Tata",
+    image: harrierCard,
+    detailImage: harrierDetail,
+    engine: "1,956 cc Diesel",
+    power: "167 BHP",
+    torque: "350 Nm",
+    transmission: "6-Speed Manual / 6-Speed Auto",
+    mileage: "14-17 km/l",
+    topSpeed: "195 km/h",
+    bodyType: "SUV",
+  },
+  {
+    name: "Kia Seltos",
+    price: "₹16 Lakh",
+    fuel: "Petrol",
+    seats: 5,
+    brand: "Kia",
+    image: seltosCard,
+    detailImage: seltosDetail,
+    engine: "1,497 cc Turbo Petrol",
+    power: "158 BHP",
+    torque: "253 Nm",
+    transmission: "7-Speed DCT",
+    mileage: "16-20 km/l",
+    topSpeed: "185 km/h",
+    bodyType: "Compact SUV",
+  },
+];
